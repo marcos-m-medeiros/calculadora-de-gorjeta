@@ -4,13 +4,13 @@ A Calculadora de Gorjeta é um projeto de estudos desenvolvido em HTML, CSS e Ja
 
 #### Recursos e Funcionalidades:
 
-Entrada de Dados: Os usuários podem inserir o valor total da conta e selecionar a porcentagem de gorjeta desejada a partir de opções pré-definidas (por exemplo: 10%, 15%, 20%).
+**Entrada de Dados:** Os usuários podem inserir o valor total da conta e selecionar a porcentagem de gorjeta desejada a partir de opções pré-definidas (por exemplo: 10%, 15%, 20%).
 
-Cálculo Instantâneo: Assim que os valores forem inseridos, a calculadora realizará o cálculo instantaneamente, exibindo o valor da gorjeta a pagar, bem como o valor total da conta incluindo a gorjeta.
+**Cálculo Instantâneo:** Assim que os valores forem inseridos, a calculadora realizará o cálculo instantaneamente, exibindo o valor da gorjeta a pagar, bem como o valor total da conta incluindo a gorjeta.
 
-Personalização: Além das porcentagens de gorjeta padrão, os usuários podem inserir manualmente qualquer porcentagem desejada, permitindo flexibilidade no cálculo.
+**Personalização:** Além das porcentagens de gorjeta padrão, os usuários podem inserir manualmente qualquer porcentagem desejada, permitindo flexibilidade no cálculo.
 
-Feedback Visual: A interface oferece feedback visual imediato, destacando os resultados e tornando a experiência do usuário mais interativa.
+**Feedback Visual:** A interface oferece feedback visual imediato, destacando os resultados e tornando a experiência do usuário mais interativa.
 
 #### Tecnologias Utilizadas:
 
