@@ -13,7 +13,7 @@
         <h2>CALCULADORA DE GORJETA</h2>
         <section>
             <p>Quanto deu a conta?</p>
-            R$ <input type="text" placeholder="0,00">
+            R$ <input type="number" placeholder="0,00" id="bill">
         </section>
         <section>
             <p>Como foi o serviço?</p>
@@ -25,12 +25,12 @@
         </section>
         <section>
             <p>A conta vai ser divida por quantas pessoas?</p>
-            <input type="number" placeholder="Número de Pessoas">
+            <input type="number" placeholder="Número de Pessoas" id="numPeople">
         </section>
         <br>
-        <input type="button" value="Calcular" id="calculate">
+        <input type="button" value="Calcular" id="calculate" onclick="calculate()">
         <section class="result">
-            <p>Aqui aparecerá o resultado.</p>
+            <p>Gorjeta: <span id="tip"></span></p>
         </section>
     </div>
 
