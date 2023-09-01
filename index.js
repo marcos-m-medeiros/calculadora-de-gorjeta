@@ -1,14 +1,13 @@
 // Acessa os elementos HTML
-const billInput = document.getElementById("bill");
-const ratePercentageSelect = document.getElementById("ratePercentage");
-const numPeopleInput = document.getElementById("numPeople");
-const tipResult = document.getElementById("tip");
+const billInput = document.querySelector("#bill");
+const ratePercentageSelect = document.querySelector("#ratePercentage");
+const numPeopleInput = document.querySelector("#numPeople");
+const tipResult = document.querySelector("#tip");
 
-// Adiciona um evento de clique ao botão "Calcular"
 function calculate() {
     // Obtém os valores dos campos de entrada
     const bill = parseFloat(billInput.value);
-    const ratePercentage = parseFloat(ratePercentageSelect.value);
+    const ratePercentage = parseInt(ratePercentageSelect.value);
     const numPeople = parseInt(numPeopleInput.value);
 
     // Verifica se os valores são válidos
@@ -20,9 +19,10 @@ function calculate() {
         const tipPerPerson = tipTotal / numPeople;
 
         // Exibe o resultado no elemento HTML
-        tipResult.textContent = `Gorjeta por pessoa: R$ ${tipPerPerson.toFixed(2)}`;
+        tipResult.innerHTML = `Gorjeta por pessoa: R$ ${tipPerPerson.toFixed(2)}`
     } else {
         // Exibe uma mensagem de erro se os valores não forem válidos
-        tipResult.textContent = "Valores inválidos.";
+        document.querySelector("#tipResult")
+        tipResult.innerHTML = "Valores inválidos.";
     }
 };
