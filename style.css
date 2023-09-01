@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;400;700&display=swap');
+
+.container {
+    font-family: 'Inria Sans', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Empilha os itens verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Isso faz com que o container ocupe toda a altura da viewport */
+    background-image: linear-gradient(to bottom, #919fe5, #6c5cdc);
+    max-width: 20%;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 25px;
+    box-shadow: 2px 4px 5px gray;
+}
+
+#calculate {
+    font-weight: bold;
+    border-radius: 25px;
+    background-image: linear-gradient(to bottom, #6c5cdc, #919fe5);
+    color: aliceblue;
+    height: 30px;
+    width: 60%;
+}
