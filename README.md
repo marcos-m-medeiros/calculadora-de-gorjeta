@@ -1,27 +1,27 @@
-# Calculadora de Gorjeta
+# Tip Calculator
 
-A Calculadora de Gorjeta é um projeto de estudos desenvolvido em HTML, CSS e JavaScript que visa simplificar o processo de cálculo de gorjetas em restaurantes e estabelecimentos similares. A ideia por trás dessa aplicação é proporcionar aos usuários uma maneira fácil e rápida de calcular o valor da gorjeta com base no valor da conta e na porcentagem de gorjeta desejada.
+The Tip Calculator is a study project developed in HTML, CSS and JavaScript that aims to simplify the process of calculating tips in restaurants and similar establishments. The idea behind this application is to provide users with a quick and easy way to calculate the tip amount based on the bill amount and desired tip percentage.
 
-#### Recursos e Funcionalidades:
+#### Features and Functionality:
 
-**Entrada de Dados:** Os usuários podem inserir o valor total da conta e selecionar a porcentagem de gorjeta desejada a partir de opções pré-definidas (por exemplo: 10%, 15%, 20%).
+**Data Entry:** Users can enter the total bill amount and select the desired tip percentage from pre-defined options (e.g. 10%, 15%, 20%).
 
-**Cálculo Instantâneo:** Assim que os valores forem inseridos, a calculadora realizará o cálculo instantaneamente, exibindo o valor da gorjeta a pagar, bem como o valor total da conta incluindo a gorjeta.
+**Instant Calculation:** As soon as the amounts are entered, the calculator will perform the calculation instantly, displaying the tip amount to be paid, as well as the total amount of the bill including the tip.
 
-**Personalização:** Além das porcentagens de gorjeta padrão, os usuários podem inserir manualmente qualquer porcentagem desejada, permitindo flexibilidade no cálculo.
+**Customization:** In addition to the standard tip percentages, users can manually enter any desired percentage, allowing flexibility in calculation.
 
-**Feedback Visual:** A interface oferece feedback visual imediato, destacando os resultados e tornando a experiência do usuário mais interativa.
+**Visual Feedback:** The interface offers immediate visual feedback, highlighting results and making the user experience more interactive.
 
-#### Tecnologias Utilizadas:
+#### Technologies Used:
 
-* HTML: Estruturação da página e dos elementos de entrada.
-* CSS: Estilização da interface para uma experiência agradável ao usuário.
-* JavaScript: Lógica de cálculo da gorjeta e interações interativas na página.
+* HTML: Structuring the page and input elements.
+* CSS: Interface styling for a pleasant user experience.
+* JavaScript: Tip calculation logic and interactive interactions on the page.
 
-#### Objetivos:
+#### Goals:
 
-O principal objetivo da Calculadora de Gorjeta é simplificar o processo de cálculo de gorjetas, oferecendo uma ferramenta prática e útil para os usuários que frequentemente precisam fazer esses cálculos.
+The main objective of the Tip Calculator is to simplify the process of calculating tips, offering a practical and useful tool for users who frequently need to make these calculations.
 
-#### Contribuições:
+#### Contributions:
 
-Contribuições são bem-vindas! Se você tem ideias para melhorar a interface, a funcionalidade ou o código em si, sinta-se à vontade para enviar um pull request no repositório do GitHub. Juntos, podemos tornar a Calculadora de Gorjeta ainda mais eficiente e amigável.
+Contributions are welcome! If you have ideas for improving the interface, functionality, or the code itself, feel free to submit a pull request in the GitHub repository. Together we can make the Tip Calculator even more efficient and user-friendly.
