@@ -1,36 +1,36 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora de Gorjeta</title>
+    <title>Tip Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
-        <h2>CALCULADORA DE GORJETA</h2>
+        <h2>Tip Calculator</h2>
         <section>
-            <p>Quanto deu a conta?</p>
+            <p>Account amount</p>
             R$ <input type="number" placeholder="0,00" id="bill">
         </section>
         <section>
-            <p>Como foi o serviço?</p>
+            <p>How was the service?</p>
             <select name="ratePercentage" id="ratePercentage">
                 <option value="10">10% - OK</option>
-                <option value="15">15% - Bom</option>
-                <option value="20">20% - Ótimo</option>
+                <option value="15">15% - Good</option>
+                <option value="20">20% - Excellent</option>
             </select>
         </section>
         <section>
-            <p>A conta vai ser divida por quantas pessoas?</p>
-            <input type="number" placeholder="Número de Pessoas" id="numPeople">
+            <p>How many people will the bill be divided between?</p>
+            <input type="number" placeholder="Number of people" id="numPeople">
         </section>
         <br>
-        <input type="button" value="Calcular" id="calculate" onclick="calculate()">
+        <input type="button" value="Calculate" id="calculate" onclick="calculate()">
         <section class="result">
-            <p>Gorjeta: <span id="tip"></span></p>
+            <p>Tip: <span id="tip"></span></p>
         </section>
     </div>
 
